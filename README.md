@@ -86,6 +86,6 @@ Instalar Jupyter Notebook en local:
 
 Ejecutar Jupyter Notebook:
   ```bash
-  jupyter notebook --open
+  jupyter notebook
   ```
 
