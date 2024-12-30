@@ -8,7 +8,7 @@ Acá podés [descargar Python](https://www.python.org/downloads/), pueden coexis
 Comprobar las versiones de Python y pip luego de la instalación:
   ```bash
   python --version # Si python no funciona, probar python3
-  pip --version
+  pip --version # Si pip no funciona, probar pip3
   ```
 
 Listar paquetes instalados:
