@@ -32,6 +32,7 @@ Instalar paquetes desde un archivo requirements.txt:
 Acá podés [descargar VSCode](https://code.visualstudio.com/download) y también te recomiendo instalar algunas extensiones: Pylance, Python, Jupyter Notebook y WSL (todas de Microsoft).
 
 - [Usar VSCode](https://vscode.dev/)
+- [Alternativa: IDX](https://idx.google.com/)
 
 
 ### Instalación de Windows Subsystem for Linux
@@ -76,7 +77,7 @@ Desactivar el entorno virtual:
 
 ### Uso de Notebooks
 - [Usar Google Colab online](https://colab.google/)
-
+- [Alternativa: Deepnote](https://deepnote.com/)
 
 Instalar Jupyter Notebook en local:
   ```bash
