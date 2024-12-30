@@ -7,7 +7,7 @@ Acá podés [descargar Python](https://www.python.org/downloads/), pueden coexis
 
 Comprobar las versiones de Python y pip luego de la instalación:
   ```bash
-  python --version
+  python --version # Si python no funciona, probar python3
   pip --version
   ```
 
@@ -34,8 +34,11 @@ Acá podés [descargar VSCode](https://code.visualstudio.com/download) y tambié
 - [Usar VSCode](https://vscode.dev/)
 
 
-### Instalación de Windows Subsystem Linux
-- [Guía de instalación de WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
+### Instalación de Windows Subsystem for Linux
+Algunos requisitos a chequear para evitar problemas:
+- Tener Windows 10 o superior (no Windows S).
+- Activar la virtualización Hyper-V en la BIOS/UEFI.
+- Windows Subsystem for Linux y Plataforma de Máquina Virtual activadas en las Características de Windows.
 
 Ejecutar en PowerShell o en CMD con permisos de administrador:
   ```bash
@@ -47,7 +50,10 @@ Luego de reiniciar la máquina, activamos la versión 2 por defecto:
   wsl --set-default-version 2
   ```
 
-Luego, buscamos Ubuntu o la distro que queramos en el Microsoft Store.
+Luego, buscamos Ubuntu o la distro que queramos en el Microsoft Store, ejemplo: Ubuntu 22.04.5 LTS
+
+- [Guía de instalación de WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
+
 
 ### Uso de Virtual Enviroments
 
