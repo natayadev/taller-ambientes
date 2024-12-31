@@ -1,5 +1,6 @@
 # Taller de preparación de ambientes para trabajar con Python
 
+
 ### Instalación de Python
 Acá podés [descargar Python](https://www.python.org/downloads/), pueden coexistir varias versiones a la vez en tu sistema operativo. Seguí las instrucciones del instalado (siguiente, siguiente) pero asegurate de marcar la casilla "Add Python to PATH" antes de continuar, si no lo hacés es probable que tengas que hacerlo de forma manual.
 
@@ -11,22 +12,6 @@ Comprobar las versiones de Python y pip luego de la instalación:
   pip --version # Si pip no funciona, probar pip3
   ```
 
-Listar paquetes instalados:
-  ```bash
-  pip list
-  ```
-
-Congelar versiones de paquetes:
-  ```bash
-  pip freeze > requirements.txt
-  ```
-
-Esto genera un archivo requirements.txt con las versiones de los paquetes instalados.
-
-Instalar paquetes desde un archivo requirements.txt:
-  ```bash
-  pip install -r requirements.txt
-  ```
 
 ### Instalación de Visual Studio Code
 Acá podés [descargar VSCode](https://code.visualstudio.com/download) y también te recomiendo instalar algunas extensiones: Pylance, Python, Jupyter Notebook y WSL (todas de Microsoft).
@@ -58,6 +43,8 @@ Luego, buscamos Ubuntu o la distro que queramos en el Microsoft Store, ejemplo: 
 
 ### Uso de Virtual Enviroments
 
+- [Lectura recomendada: Entornos virtuales y paquetes](https://docs.python.org/es/3.13/tutorial/venv.html)
+
 Crear un entorno virtual:
   ```bash
   python -m venv nombre_del_entorno
@@ -73,6 +60,26 @@ Activar el entorno virtual:
 Desactivar el entorno virtual:
   ```bash
   deactivate
+  ```
+
+
+### Paquetes con pip:
+
+Listar paquetes instalados:
+  ```bash
+  pip list
+  ```
+
+Congelar versiones de paquetes:
+  ```bash
+  pip freeze > requirements.txt
+  ```
+
+Esto genera un archivo requirements.txt con las versiones de los paquetes instalados.
+
+Instalar paquetes desde un archivo requirements.txt:
+  ```bash
+  pip install -r requirements.txt
   ```
 
 ### Uso de Notebooks
